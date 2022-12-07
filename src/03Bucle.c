@@ -11,7 +11,7 @@ int main ()
     {
         for ( int i = 0; i < numeroSigno; i++) 
             printf("+ ");
-        printf("\n\n");
+        printf("\n");
     }   
     return 0;
 }
