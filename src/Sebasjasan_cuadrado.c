@@ -1,3 +1,9 @@
+/*
+*@author    : Sebastian Sanchez
+*@date      : 07.12.2022
+*@details   : Formar un cuadrado con signos alternos
+*/
+
 #include <stdio.h>
 
 void generarCuadrado(int signoAlterno)
@@ -23,18 +29,7 @@ int main()
     printf("Ingrese el numero de signos: ");
     scanf("%i", &numeroSigno);
 
-    // generarCuadrado(numeroSigno);
-    for (int i = 0; i < numeroSigno; i++)
-    {
-        if (i % 2 == 0)
-            printf("+ ");
-        else
-            printf("- ");
-        if (i % 2 == 0)
-            printf("* ");
-        else
-            printf("& ");
-    }
-
+    generarCuadrado(numeroSigno);
+    
     return 0;
 }
