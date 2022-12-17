@@ -20,3 +20,14 @@ void main ()
 
     printf("La respuesta es %i", rta);
 }
+{
+	int numN = 5;
+	int N[numN];
+	for (int i = 0; i < numN; i++)
+	{
+		N [numN] = i*2;
+		printf("%i ", N[numN]);
+	}
+
+	return 0;
+}
